@@ -69,7 +69,7 @@ int main()
 	cout<<"ntypat "<<el_num<<endl;
 	cout<<"znucl";
 	for(t1=0; t1<el_num; t1++)
-		cout<<" X";
+		cout<<' '<<el_l[t1];
 	cout<<endl;
 	cout<<endl<<"#Definition of the atoms"<<endl;
 	cout<<"natom "<<at_num<<endl;
